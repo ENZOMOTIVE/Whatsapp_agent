@@ -1,38 +1,24 @@
 # Whatsapp Agent
 
-## Project Tags
+> Whatsapp Agent is an AI-assisted workflow project that connects model-powered behavior with application or protocol tooling.
 
-- `Agentic AI`
-- `Protocol`
+## The Story
 
-## Overview
+Whatsapp Agent starts with a simple goal: make model-driven behavior useful around wallets, tokens, contracts, or blockchain workflows. Its shape tells the same story: the service layer and the AI-assisted workflow live close enough together that a maintainer can see the project as a whole before diving into individual folders.
 
-Whatsapp Agent is an AI/agent-oriented project with code or structure for automated assistant workflows.
+## What It Includes
 
-## Features
+- A service layer for APIs, realtime behavior, bot logic, or server-side workflows.
+- AI-assisted behavior through model providers, bot flows, or agent-oriented tooling.
 
-- Backend service, API, websocket, bot, or server workflow
-- AI, agent, bot, MCP, or assistant-oriented automation surface
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `.gitattributes` | project file or folder |
+| `Agent` | service, bot, API, or realtime layer |
 
-- Express
-- Node.js
-- TypeScript
-
-## Project Structure
-
-- `.gitattributes` - project file or directory
-- `Agent` - backend, API, bot, or server code
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-- Node.js 18+
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/Whatsapp_agent.git
@@ -44,30 +30,37 @@ cd Agent
 npm install
 ```
 
-## Commands
+## Command Surface
 
-- `Agent/package.json`: `test`
+| Area | Commands |
+| --- | --- |
+| `Agent/package.json` | `test` |
 
 ## Configuration
 
-- Document required service ports, database URLs, and API credentials before deployment.
-- Keep model/provider keys and agent secrets outside version control.
+- Document API ports, database URLs, third-party credentials, and service endpoints in `.env.example` before deployment.
+- Keep wallet private keys, RPC URLs, mnemonics, and contract secrets outside version control.
+- Keep model provider keys such as OpenAI or AI SDK credentials in local environment files only.
 
-## Testing and Quality
+## Quality Checks
 
 - From `Agent`, run `npm test`.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Document the main API routes, bot events, or service responsibilities with example inputs and outputs.
+- Describe the model provider, prompt boundaries, and evaluation approach for the AI-assisted parts.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/Whatsapp_agent` |
+| Categories | `Agentic AI`, `Protocol` |
+| Primary stack | Express, Node.js, TypeScript |
+
 
 ## License
 
