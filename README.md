@@ -1,30 +1,38 @@
 # Whatsapp Agent
 
-`Whatsapp_agent` contains project files that now have a documented setup, structure, and maintenance workflow.
+## Project Tags
+
+- `Agentic AI`
+- `Protocol`
+
+## Overview
+
+Whatsapp Agent is an AI/agent-oriented project with code or structure for automated assistant workflows.
 
 ## Features
 
-- JavaScript/TypeScript project structure with package scripts
-- Backend entry point for API or server-side workflows
+- Backend service, API, websocket, bot, or server workflow
+- AI, agent, bot, MCP, or assistant-oriented automation surface
 
 ## Tech Stack
 
+- Express
 - Node.js
-- Express/Node backend
+- TypeScript
 
 ## Project Structure
 
-- `.gitattributes` - project file
-- `Agent` - project directory
-- `README.md` - project documentation
+- `.gitattributes` - project file or directory
+- `Agent` - backend, API, bot, or server code
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Node.js 18+
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/Whatsapp_agent.git
@@ -36,31 +44,31 @@ cd Agent
 npm install
 ```
 
-## Available Commands
+## Commands
 
-- `Agent/package.json` - scripts: `test`
+- `Agent/package.json`: `test`
 
 ## Configuration
 
-- Create a local `.env` file for secrets, API keys, RPC URLs, private keys, bot tokens, or database credentials.
-- Keep `.env` files out of version control and document required variable names as the project stabilizes.
+- Document required service ports, database URLs, and API credentials before deployment.
+- Keep model/provider keys and agent secrets outside version control.
 
 ## Testing and Quality
 
 - From `Agent`, run `npm test`.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
